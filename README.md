@@ -21,3 +21,9 @@ Theme: Trekking
     c. Date & Time
 
 7. Committing Date & Time changes
+
+8. Data Model.cs created in Model folder by the name ThemeTrekking.cs
+
+9. In Model, class defined and 6 properties included. 
+
+10. 1 minimum DataType entry coded & committed!
