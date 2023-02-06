@@ -15,3 +15,9 @@ Theme: Trekking
 
 5. Files comitted... 
 
+6. Edited the default "Welcome" page to include:
+    a. The name of my theme
+    b. My name
+    c. Date & Time
+
+7. Committing Date & Time changes
