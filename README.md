@@ -27,3 +27,11 @@ Theme: Trekking
 9. In Model, class defined and 6 properties included. 
 
 10. 1 minimum DataType entry coded & committed!
+
+11. .NET CLS Commands installed & Comitted!
+    dotnet tool install --global dotnet-ef --version 5
+    dotnet tool install --global dotnet-aspnet-codegenerator --version 5.*
+    dotnet add package Microsoft.EntityFrameworkCore.Design --version 5.*
+    dotnet add package Microsoft.EntityFrameworkCore.SQLite --version 5.*
+    dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 5.*
+    dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 5.*
