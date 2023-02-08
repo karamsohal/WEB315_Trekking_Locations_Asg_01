@@ -35,3 +35,17 @@ Theme: Trekking
     dotnet add package Microsoft.EntityFrameworkCore.SQLite --version 5.*
     dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design --version 5.*
     dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 5.*
+
+12. Scaffold comman ran -  dotnet-aspnet-codegenerator razorpage -m ThemeTrekking -dc ThemeTrekkingContext -udl -outDir Pages/ThemeTrekking --referenceScriptLibraries -sqlite
+
+13. Entity Framework Migration feature, created the initial database schema. Committing
+
+14. A link added to my webapp's top navigation bar that leads to the Index file of my new CRUD pages. Committing
+
+15. Added a new cs file with a file name(SeedData.cs) and class name of SeedData_WEB315_Trekking_Locations_Asg_01.
+
+16. Initialized SeedData so that it will add a minimum of 5 entries to my database if the database is empty when anyone runs the webapp. Committing
+
+17. Submitting the Asg on BB.
+
+18. Minor changes in lebels revised.
