@@ -42,3 +42,8 @@ Theme: Trekking
 
 14. A link added to my webapp's top navigation bar that leads to the Index file of my new CRUD pages. Committing
 
+15. Added a new cs file with a file name(SeedData.cs) and class name of SeedData_WEB315_Trekking_Locations_Asg_01.
+
+16. Initialized SeedData so that it will add a minimum of 5 entries to my database if the database is empty when anyone runs the webapp. Committing
+
+17. 
