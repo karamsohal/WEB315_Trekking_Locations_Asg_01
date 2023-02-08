@@ -47,3 +47,5 @@ Theme: Trekking
 16. Initialized SeedData so that it will add a minimum of 5 entries to my database if the database is empty when anyone runs the webapp. Committing
 
 17. Submitting the Asg on BB.
+
+18. Minor changes in lebels revised.
