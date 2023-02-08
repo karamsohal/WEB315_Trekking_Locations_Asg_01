@@ -37,3 +37,6 @@ Theme: Trekking
     dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 5.*
 
 12. Scaffold comman ran -  dotnet-aspnet-codegenerator razorpage -m ThemeTrekking -dc ThemeTrekkingContext -udl -outDir Pages/ThemeTrekking --referenceScriptLibraries -sqlite
+
+13. Entity Framework Migration feature, created the initial database schema. Committing
+
