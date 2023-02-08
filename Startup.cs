@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
 
 namespace WEB315_Trekking_Locations_Asg_01
 {
@@ -24,6 +25,9 @@ namespace WEB315_Trekking_Locations_Asg_01
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+
+            services.AddDbContext<ThemeTrekkingContext>(options =>
+                    options.UseSqlite(Configuration.GetConnectionString("ThemeTrekkingContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
