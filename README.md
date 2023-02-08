@@ -40,3 +40,5 @@ Theme: Trekking
 
 13. Entity Framework Migration feature, created the initial database schema. Committing
 
+14. A link added to my webapp's top navigation bar that leads to the Index file of my new CRUD pages. Committing
+
