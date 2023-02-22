@@ -61,3 +61,9 @@ Assignment 02 _ adding
 3. Added 2 new property, by the name of the Height as Int and Popularity as String. Committing
 4. ALl CRUD pages changes made and added 2 newly introduced properties Height and Popularity. Committing
 5. 3 new property, all the information added to the model page and seedData. Committing
+6. Run essential commands to update the newly added database schema.
+                dotnet ef migrations add rating
+                dotnet ef database update
+
+                Committing changes
+7. Changes to seedData updated. Committing

@@ -24,6 +24,9 @@ namespace WEB315_Trekking_Locations_Asg_01.Migrations
                     b.Property<string>("Country")
                         .HasColumnType("TEXT");
 
+                    b.Property<int>("Height")
+                        .HasColumnType("INTEGER");
+
                     b.Property<string>("LocationName")
                         .HasColumnType("TEXT");
 
@@ -33,7 +36,13 @@ namespace WEB315_Trekking_Locations_Asg_01.Migrations
                     b.Property<DateTime>("PlanningToVisit")
                         .HasColumnType("TEXT");
 
+                    b.Property<string>("Popularity")
+                        .HasColumnType("TEXT");
+
                     b.Property<string>("State")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("VisitorName")
                         .HasColumnType("TEXT");
 
                     b.HasKey("ID");
