@@ -79,3 +79,5 @@ Assignment 02 _ adding
                 The newly added integer property (from step 2) must restrict the value to be within
                 an range of your choosing.
 Committing...
+
+9. Search bar added and Select list added... working all good... committing... Asg 2 completed

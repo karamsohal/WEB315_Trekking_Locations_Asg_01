@@ -10,6 +10,15 @@
 <p>
     <a asp-page="Create">Create New</a>
 </p>
+<form>
+    <p>
+        <select asp-for="TrekkingLocations" asp-items="Model.Trekking">
+        <option value="">All</option>
+        </select>
+
+        Trekking Location: <input type="text" asp-for="SearchTerm" />
+        </p>
+</form>
 <table class="table">
     <thead>
         <tr>
