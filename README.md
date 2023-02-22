@@ -60,3 +60,4 @@ Assignment 02 _ adding
 2. Comitting new branch changes.
 3. Added 2 new property, by the name of the Height as Int and Popularity as String. Committing
 4. ALl CRUD pages changes made and added 2 newly introduced properties Height and Popularity. Committing
+5. 3 new property, all the information added to the model page and seedData. Committing
