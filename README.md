@@ -67,3 +67,15 @@ Assignment 02 _ adding
 
                 Committing changes
 7. Changes to seedData updated. Committing
+8. Add validation rules to your model properties as follows:
+           Done -  All string properties must have a value and cannot be saved without a value. (i.e.
+            no null values, strings are required to have a value)
+           Done -   All strings properties must have either a minimum length, maximum length, or
+            both. (ex. a chess player name could have a minimum length of 4 and a maximum
+            length of 32)
+           Done - The newly added string property (from step 2) must only accept letters, and the
+                first letter is required to be uppercase. (i.e. white spaces are also allowed, while
+                numbers and special characters are not allowed)
+                The newly added integer property (from step 2) must restrict the value to be within
+                an range of your choosing.
+Committing...
