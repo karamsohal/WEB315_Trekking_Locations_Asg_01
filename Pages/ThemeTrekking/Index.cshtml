@@ -28,6 +28,15 @@
             <th>
                 @Html.DisplayNameFor(model => model.ThemeTrekking[0].Country)
             </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ThemeTrekking[0].Height)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ThemeTrekking[0].Popularity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ThemeTrekking[0].VisitorName)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -48,6 +57,15 @@
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Country)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Height)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Popularity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VisitorName)
             </td>
             <td>
                 <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |

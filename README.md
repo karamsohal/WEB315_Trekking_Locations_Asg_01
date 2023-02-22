@@ -59,3 +59,4 @@ Assignment 02 _ adding
 1. New branch by the name of the Assignment_2 branch created.
 2. Comitting new branch changes.
 3. Added 2 new property, by the name of the Height as Int and Popularity as String. Committing
+4. ALl CRUD pages changes made and added 2 newly introduced properties Height and Popularity. Committing
