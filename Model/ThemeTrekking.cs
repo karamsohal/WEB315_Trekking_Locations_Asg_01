@@ -15,6 +15,9 @@ namespace WEB315_Trekking_Locations_Asg_01.Models
         public string Place { get; set; }
         public string State { get; set; }
         public string Country { get; set; }
+        public int Height { get; set; }
+        public string Popularity { get; set; }
+        public string VisitorName { get; set; }
 
         /*public int Rating { get; set;}
         public string RelatedFilms {get; set;}*/
