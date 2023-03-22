@@ -57,3 +57,7 @@ Assignment-3
 ////////////////////////////////////////////////////////////////
 
 1. Assignment-3 Branch Created
+
+2. BlazzerApp created by the Theme Name as TrekkingLocation
+    committing the changes...
+    
