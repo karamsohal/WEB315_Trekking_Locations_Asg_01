@@ -56,3 +56,5 @@ C:\Users\samee\OneDrive\Documents\GitHub\WEB315_Trekking_Locations_Asg_01\Trekki
 C:\Users\samee\OneDrive\Documents\GitHub\WEB315_Trekking_Locations_Asg_01\TrekkingApp\obj\Debug\net5.0\TrekkingApp.pdb
 C:\Users\samee\OneDrive\Documents\GitHub\WEB315_Trekking_Locations_Asg_01\TrekkingApp\obj\Debug\net5.0\TrekkingApp.genruntimeconfig.cache
 C:\Users\samee\OneDrive\Documents\GitHub\WEB315_Trekking_Locations_Asg_01\TrekkingApp\obj\Debug\net5.0\TrekkingApp.csproj.CopyComplete
+C:\Users\samee\OneDrive\Documents\GitHub\WEB315_Trekking_Locations_Asg_01\TrekkingApp\obj\Debug\net5.0\RazorDeclaration\Pages\Trekking.razor.g.cs
+C:\Users\samee\OneDrive\Documents\GitHub\WEB315_Trekking_Locations_Asg_01\TrekkingApp\obj\Debug\net5.0\Razor\Pages\Trekking.razor.g.cs
