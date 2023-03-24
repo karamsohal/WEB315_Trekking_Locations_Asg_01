@@ -91,7 +91,7 @@ using TrekkingApp.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 14 "C:\Users\samee\OneDrive\Documents\GitHub\WEB315_Trekking_Locations_Asg_01\TrekkingApp\Pages\Trekking.razor"
+#line 17 "C:\Users\samee\OneDrive\Documents\GitHub\WEB315_Trekking_Locations_Asg_01\TrekkingApp\Pages\Trekking.razor"
       
     private string[] locations = new string[5];
 
@@ -104,6 +104,13 @@ using TrekkingApp.Shared;
     }
 
     private int locationList = 5;
+
+    private void UpdateLocations(int num){
+        if (num >= 0 && num <=5)
+        {
+            locationList = num;
+        }
+    }
 
 #line default
 #line hidden

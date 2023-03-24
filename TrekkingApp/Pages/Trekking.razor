@@ -2,7 +2,7 @@
 
 <h1>Trekking Locations</h1>
 
-<button @onclick="ShowLocations" >Show Trekking Locations</button>
+<button @onclick="ShowLocations">Show Trekking Locations</button>
 
 <p>
     @for (var i = 0; i < locationList; i++)
@@ -10,6 +10,9 @@
         @locations[i] <br />
     }
 </p>
+
+<label>No. of Trekking Locations to be displayed:</label>
+<input type="number" value="@locationList" @onchange="@(e => UpdateLocations(int.Parse(e.Value.ToString())))">
 
 @code{
     private string[] locations = new string[5];
@@ -23,4 +26,11 @@
     }
 
     private int locationList = 5;
+
+    private void UpdateLocations(int num){
+        if (num >= 0 && num <=5)
+        {
+            locationList = num;
+        }
+    }
 }
