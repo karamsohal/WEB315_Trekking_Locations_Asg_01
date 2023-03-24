@@ -90,6 +90,24 @@ using TrekkingApp.Shared;
         {
         }
         #pragma warning restore 1998
+#nullable restore
+#line 14 "C:\Users\samee\OneDrive\Documents\GitHub\WEB315_Trekking_Locations_Asg_01\TrekkingApp\Pages\Trekking.razor"
+      
+    private string[] locations = new string[5];
+
+    private void ShowLocations(){
+        locations[0] = "Mount Everest";
+        locations[1] = "Tour Du Mont Blanc";
+        locations[2] = "The West Coast Trail";
+        locations[3] = "GR 20";
+        locations[4] = "Dolomite High Route";
+    }
+
+    private int locationList = 5;
+
+#line default
+#line hidden
+#nullable disable
     }
 }
 #pragma warning restore 1591

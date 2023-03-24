@@ -1,3 +1,26 @@
 @page "/Trekking"
 
-@code{}
+<h1>Trekking Locations</h1>
+
+<button @onclick="ShowLocations" >Show Trekking Locations</button>
+
+<p>
+    @for (var i = 0; i < locationList; i++)
+    {
+        @locations[i] <br />
+    }
+</p>
+
+@code{
+    private string[] locations = new string[5];
+
+    private void ShowLocations(){
+        locations[0] = "Mount Everest";
+        locations[1] = "Tour Du Mont Blanc";
+        locations[2] = "The West Coast Trail";
+        locations[3] = "GR 20";
+        locations[4] = "Dolomite High Route";
+    }
+
+    private int locationList = 5;
+}

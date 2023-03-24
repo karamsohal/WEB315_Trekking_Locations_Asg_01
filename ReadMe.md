@@ -5,3 +5,9 @@
 5. Increment in Counter page done. And conditon added, it will reset to zero if crossing value higer then 15. Committing the changes.
 6. New Razzor Component created by the theme name as Trekking. Committing the changes.
 7. New Razzor Component Treeking has been linked to the Nav Menu. Committing the changes.
+8. Added an empty array of strings to my new component.
+    Added a button to the top of the new component.
+    Following things added:
+    Populated empty array with 5 string values related to my theme.
+    It Displays the entire array of strings below the button using a loop.
+    Committing the changes.
