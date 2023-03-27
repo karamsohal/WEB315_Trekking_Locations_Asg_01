@@ -1,6 +1,14 @@
 @page "/"
 
-<h1>My Theme Name: Trekking</h1>
-<h2>My Name: Karamjit Sohal</h2>
-<h3>Current Date & Time is: @DateTime.Now</h3>
+<h1>@themeName</h1>
+<h2>@myName</h2>
+<h3>@currentDate</h3>
+
+Welcome to My Theme Application Trekking
+
+@code{
+      string themeName = "Trekking";
+      string myName = "Karamjit Sohal"
+      DateTime currentDate = DateTime.Now;
+}
 
