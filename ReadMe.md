@@ -87,3 +87,15 @@ hubConnection.On<string>("ReceiveAnonMessage", (message) =>
             messages.Add(encodedMsg);
             StateHasChanged();
         });
+
+17. ChatPage Task Send  -
+
+async Task Send() {
+        
+        if (userInput != "" && userInput != null){
+            await hubConnection.SendAsync("SendMessage", userInput, messageInput);
+        }
+        else{
+            await hubConnection.SendAsync("SendAnon", messageInput);
+        }
+    }
