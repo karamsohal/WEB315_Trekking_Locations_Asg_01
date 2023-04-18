@@ -9,5 +9,15 @@ namespace KaramjitSohalChat.Server.Hubs
         {
             await Clients.All.SendAsync("ReceiveMessage", user, message);
         }
+
+         public async Task SendTyping(string user)
+        {
+            await Clients.Others.SendAsync("UserTyping", user);
+        }
+
+         public async Task SendAnon(string message)
+        {
+            await Clients.All.SendAsync("ReceiveAnonMessage", message);
+        }
     }
 }

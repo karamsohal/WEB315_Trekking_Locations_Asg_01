@@ -39,3 +39,19 @@ endpoints.MapHub<ChatHub>("/chathub");
 dotnet new razorcomponent -n ChatPage -o Pages
 Added @page "/chat"
 linked on Nav menu
+
+9. Edited ChatPage.razor, removed code from index and pasted here and in index we provided link to the chat.
+
+10. Pasted this code with changes in server>Hubs>ChatHubs after method
+public async Task SendMessage(string user, string message)
+        {
+            await Clients.All.SendAsync("ReceiveMessage", user, message);
+        }
+public async Task SendTyping(string user)
+        {
+            await Clients.Others.SendAsync("UserTyping", user);
+        }
+public async Task SendAnon(string message)
+        {
+            await Clients.All.SendAsync("ReceiveAnonMessage", message);
+        }
