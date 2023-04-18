@@ -79,3 +79,11 @@ async Task SendTyping(){
             await hubConnection.SendAsync("SendTyping", userInput);
         }
     }
+
+16. Anonymous new method added
+hubConnection.On<string>("ReceiveAnonMessage", (message) =>
+        {
+            var encodedMsg = $"Anonymous: {message}";
+            messages.Add(encodedMsg);
+            StateHasChanged();
+        });

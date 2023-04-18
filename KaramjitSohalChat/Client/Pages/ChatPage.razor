@@ -57,6 +57,13 @@
             StateHasChanged();
         });
 
+        hubConnection.On<string>("ReceiveAnonMessage", (message) =>
+        {
+            var encodedMsg = $"Anonymous: {message}";
+            messages.Add(encodedMsg);
+            StateHasChanged();
+        });
+
         await hubConnection.StartAsync();
     }
 
