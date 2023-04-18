@@ -99,3 +99,14 @@ async Task Send() {
             await hubConnection.SendAsync("SendAnon", messageInput);
         }
     }
+
+18. CSS file added in pages with ChatPage as ChatPage.razor.css
+p{
+    font-style: italic;
+}
+
+linked the page with below code in chatpage.razor
+
+<link rel="stylesheet" href="KaramjitSohalChat.styles.css">
+
+Assignment 4 completed
