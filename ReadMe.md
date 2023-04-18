@@ -58,3 +58,14 @@ public async Task SendAnon(string message)
 
 11. Added disabled="@(!IsConnected)" in all the inputs in ChatPage
 12. Added maxlength="63" to the username input and changed lebal user to username
+
+13. Added method 
+hubConnection.On<string>("UserTyping", (user) =>
+        {
+            var encodedMsg = $"{user} is typing a message...";
+            userTyping = encodedMsg;
+            StateHasChanged();
+        });
+
+        added <p>@userTyping</p>
+        after button
