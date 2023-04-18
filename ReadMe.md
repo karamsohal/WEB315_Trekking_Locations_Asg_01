@@ -69,3 +69,13 @@ hubConnection.On<string>("UserTyping", (user) =>
 
         added <p>@userTyping</p>
         after button
+
+14. Add onclick in the chatPage <input @bind="messageInput" disabled="@(!IsConnected)" size="50" @onclick="(e) => SendTyping()"/>
+
+15. New Method for above - 
+async Task SendTyping(){
+        
+        if (userInput != "" && userInput != null){
+            await hubConnection.SendAsync("SendTyping", userInput);
+        }
+    }
