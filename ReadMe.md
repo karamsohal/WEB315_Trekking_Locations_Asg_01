@@ -32,3 +32,10 @@ services.AddResponseCompression(opts =>
 app.UseResponseCompression();
 endpoints.MapHub<ChatHub>("/chathub");
 7. In Pages/Index.razor, replace the codes from tutorial
+
+-----------tutorial completed------------------
+
+8. Creating new componenet 
+dotnet new razorcomponent -n ChatPage -o Pages
+Added @page "/chat"
+linked on Nav menu
